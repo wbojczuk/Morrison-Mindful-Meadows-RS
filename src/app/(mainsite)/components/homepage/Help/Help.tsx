@@ -17,7 +17,7 @@ return (
         </div>
     </div>
  
-    <img src='/img/help.png' alt='Image of woman' className='bg-img' />
+    <img src='/img/help.webp' alt='Image of woman' className='bg-img' />
     <div className='shader' style={{backgroundColor: "rgba(255,255,255,.91)"}}></div>
  </div>
 )};

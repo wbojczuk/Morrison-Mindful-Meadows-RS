@@ -20,7 +20,7 @@ export default function Meet() {
 
         <div className={styles.imgWrapper}>
           <div className={styles.imgContainer}>
-            <img src="/img/marcia.png" alt="image of dr marcia" className={styles.mainImg} />
+            <img src="/img/marcia.webp" alt="image of dr marcia" className={styles.mainImg} />
             <div className={styles.imgStyle}></div>
           </div>
         </div>

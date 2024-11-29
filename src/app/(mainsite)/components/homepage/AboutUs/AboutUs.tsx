@@ -20,7 +20,7 @@ export default function AboutUs() {
 
         <div className={styles.imgWrapper}>
           <div className={styles.imgContainer}>
-            <img src="/img/aboutus.png" alt="image of bridge" className={styles.mainImg} />
+            <img src="/img/aboutus.webp" alt="image of bridge" className={styles.mainImg} />
             
           </div>
         </div>

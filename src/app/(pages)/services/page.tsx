@@ -1,11 +1,10 @@
-import AboutContent from "@/app/(mainsite)/components/aboutpage/Meet/AboutContent"
-import Peace from "@/app/(mainsite)/components/homepage/Peace/Peace"
 import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
+import Services from "@/app/(mainsite)/components/servicespage/Services/Services"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-	  title: `About | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
-	  description: `About | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
+	  title: `Services | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
+	  description: `Services | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 openGraph: {
 title: `${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
 description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
@@ -26,12 +25,11 @@ description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 }
 }
 
-export default function AboutPage(){
+export default function ServicesPage(){
 	 return(
 	 	 <>
-			<PageTitle pageTitle="About" />
-			<AboutContent />
-			<Peace />
+			<PageTitle pageTitle="Services" />
+			<Services />
 	 	 </>
 	 )
 }

@@ -131,7 +131,7 @@
      .header p{
         margin:15vw 0;
          padding: 2vw 5%;
-         font-size: 2rem;
+         font-size: 1.8rem;
      }
      .header p::after{
          height: 4px;
