@@ -55,6 +55,14 @@
     object-position: center;
     z-index: 15;
 }
+.imgContainer span{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 102%;
+    font-weight: bold;
+    font-size: 1rem;
+}
 .imgStyle{
     position: absolute;
     top:-2vw;

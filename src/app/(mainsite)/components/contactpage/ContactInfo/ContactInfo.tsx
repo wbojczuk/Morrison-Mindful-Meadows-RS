@@ -5,7 +5,7 @@ export default function ContactInfo() {
     <section className={styles.contactInfo}>
         <div className={styles.formWrapper}>
           <h2>Reach Out!</h2>
-          <p>Contact us. We’re always happy to answer any questions you may have, and help you find your peace!</p>
+          <p>To contact our office, please use the form on this page to send a message. You may also call, or email anytime using the information below.</p>
           <FreeEstimateForm />
         </div>
         <div className={styles.imgWrapper}>

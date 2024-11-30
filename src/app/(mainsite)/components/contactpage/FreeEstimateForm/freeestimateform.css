@@ -2,22 +2,28 @@
     position: relative;
     left: -0.5vw;
     display: inline-block;
-    /* background-color: var(--primary-color); */
+    background-color: rgba(255,255,255,0.85);
     /* padding: 1.5vw; */
     padding-top: 0;
-    color: var(--main-color);
-    width: 25vw;
+    padding-bottom: 2vw;
+    color: var(--secondary-text-color);
+    width: 28vw;
     min-height: 33rem;
     /* box-shadow: 0px 4px 8px rgba(0,0,0,0.5); */
 }
 
 #estimateFormTitle{
-    font-size: 2.5rem;
-    font-family: var(--primary-font);
+    font-size: 2rem;
+    font-family: var(--secondary-font);
+    background: var(--primary-color);
+    color: var(--secondary-text-color);
     text-align: center;
     line-height: 120%;
-    font-weight: 800;
-    padding: 1vw 0 4vw 0;
+    font-weight: 600;
+    padding: 1vw 0 2vw 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
     position: relative;
 
 }
@@ -26,18 +32,9 @@
     position: relative;
     margin: 1.5vw 0.5vw;
 }
-.input-wrapper:has(.half-input), .input-wrapper:has(.date-input){
+.input-wrapper:has(.half-input){
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-.input-wrapper .date-input{
-    width: 50% !important;
-    padding-right: 2% !important;
-}
-.date-input-label{
-    font-size: 1.2rem;
-    font-weight: 500;
 }
 #formPhoneIcon:not(.company-name-icon){
     top: 0%;
@@ -46,17 +43,21 @@
     width: 11%;
 }
 #estimateForm input:not(input[type="submit"]):focus, #estimateForm textarea:focus{
-    outline: 4px solid var(--secondary-color);
-    /* border: 3px solid var(--secondary-color); */
+    outline: none;
+    border-color: var(--primary-color);
 }
 #estimateForm input, #estimateForm textarea{
     display: inline-block;
     font-size: 1.2em;
     font-family: var(--main-font);
     font-weight: 400;
-    width: 98%;
-    border: 2px solid var(--primary-text-color);
+    width: 80%;
+    margin: 0 9%;
+    border: none;
+    border-bottom: 2px solid var(--primary-color);
     padding: 1.2vw 0;
+    background-color: transparent;
+    border-radius: 0;
 }
 
 #estimateForm input.half-input{
@@ -78,7 +79,7 @@
     width: 60%;
     display: flex;
     justify-content: center;
-    border-radius: 0;
+    /* border-radius: 0; */
 }
 #estimateForm input[type="submit"]:hover{
     filter: brightness(75%);
@@ -86,23 +87,24 @@
 
 #estimateForm textarea{
     resize: none;
-    width: 98%;
+    width: 80%;
     padding-left: 2%;
     height: 5vw;
+    border: 2px solid var(--primary-color);
 }
 
 .form-disclaimer{
     padding: 1vw 1.5vw 0 1.5vw;
     text-align: center;
-    font-weight: bold;
+    font-size: 0.8rem;
+    font-weight: light;
+    color: black;
 }
 
-
-/* MEDIUM LAPTOP STYLES */
-@media only screen and (min-width: 1401px) and (max-width: 1900px){
-    #estimateForm{
-        width: 28vw;
-    }
+#estimateForm .main-link{
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    width: 50%;
 }
 
 
@@ -137,7 +139,7 @@
     #estimateForm{
         /* padding: 2vw; */
         padding-top: 0;
-        width: 42vw;
+        width: 46vw;
     }
     
     #estimateFormTitle{
@@ -155,9 +157,6 @@
     .input-wrapper img{
         left: 2%;
     }
-    #estimateForm textarea{
-        height: 10vw;
-    }
     #formPhoneIcon:not(.company-name-icon){
         left: 1%;
     }
@@ -168,11 +167,6 @@
  
 /* MOBILE STYLES */
 @media only screen and (max-width: 649px){
-    input::-webkit-date-and-time-value{ padding: 3vw 0; }
-    .input-wrapper .date-input{
-        display: inline-flex;
-        align-items: center;
-    }
     .form-disclaimer{
         padding: 3vw 3.5vw 0 3.5vw;
 
@@ -186,13 +180,15 @@
     #estimateForm{
         /* margin-top: 8vw; */
         /* padding: 4vw; */
+        width: 75vw !important;
         padding-top: 0;
         width: 100%;
     }
     
     #estimateFormTitle{
-        font-size: 2.4em;
-        padding-bottom: 8vw;
+        font-size: 3em;
+        padding-bottom: 4vw;
+        padding-top: 4vw;
     }
     .input-wrapper{
         margin: 4vw 0
@@ -202,9 +198,6 @@
         padding-left: 2%;
         font-size: 1.3rem;
     }
-    #estimateForm textarea{
-        height: 18vw;
-    }
     .input-wrapper img{
         left: 2%;
     }
@@ -213,6 +206,13 @@
     }
     #estimateForm input[type="submit"]{
         font-size: 1.8rem;
+    }
+    #estimateForm textarea{
+        height: 10vw;
+    }
+    #estimateForm .main-link{
+        padding-top: 2vw;
+        padding-bottom: 2vw;
     }
 }
 

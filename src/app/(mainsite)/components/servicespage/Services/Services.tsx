@@ -5,7 +5,7 @@ export default function Services(){
 return (
  <div className={styles.services}>
     
-        <h2 className={styles.title}>Things I can help with!</h2>
+        <h2 className={styles.title}>Things we can help with!</h2>
         <p className={styles.pageDesc}>Explore the different conditions I’ve treated and see if I’m a good fit for you!</p>
 
         <ServicesContent />

@@ -58,6 +58,11 @@
     background-color: white;
 }
 
+.header h5{
+    margin-top: 3rem;
+    font-size: 1.2rem;
+}
+
 .socialLinks{
     display: inline-flex;
     flex-direction: column;

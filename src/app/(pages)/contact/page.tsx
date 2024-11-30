@@ -1,3 +1,4 @@
+import Best from "@/app/(mainsite)/components/contactpage/Best/Best"
 import ContactInfo from "@/app/(mainsite)/components/contactpage/ContactInfo/ContactInfo"
 import Peace from "@/app/(mainsite)/components/homepage/Peace/Peace"
 import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
@@ -31,6 +32,7 @@ export default function ContactPage(){
 	 	 <>
 			<PageTitle pageTitle="Contact" />
 			<ContactInfo />
+			<Best />
 			<Peace />
 	 	 </>
 	 )

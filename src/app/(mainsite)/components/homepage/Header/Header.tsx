@@ -8,9 +8,13 @@ export default function Header() {
         <h1>Find Clarity</h1>
 
           <p>Empowering Change, Restoring Balance</p>
+
+          
         
 
         <Link href="/contact" className="main-link">Contact</Link>
+
+        <h5>Licensed in New York and Kentucky!</h5>
 
         <img src="/img/header-bg.webp" alt="" className="bg-img" />
         <div className="shader"></div>
