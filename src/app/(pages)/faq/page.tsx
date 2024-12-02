@@ -1,6 +1,8 @@
 import FAQ from "@/app/(mainsite)/components/faqpage/FAQ/FAQ"
+import Resources from "@/app/(mainsite)/components/faqpage/Resources/Resources"
 import Ready from "@/app/(mainsite)/components/homepage/Ready/Ready"
 import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
+import When from "@/app/(mainsite)/components/misc/When/When"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -31,6 +33,8 @@ export default function FaqPage(){
 	 	 <>	
 			<PageTitle pageTitle="FAQ" />
 			<FAQ />
+			<When />
+			<Resources />
 			<Ready />
 	 	 </>
 	 )

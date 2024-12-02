@@ -1,5 +1,6 @@
 import AboutContent from "@/app/(mainsite)/components/aboutpage/Meet/AboutContent"
 import Peace from "@/app/(mainsite)/components/homepage/Peace/Peace"
+import Dream from "@/app/(mainsite)/components/misc/Dream/Dream"
 import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
 import type { Metadata } from "next"
 
@@ -31,7 +32,8 @@ export default function AboutPage(){
 	 	 <>
 			<PageTitle pageTitle="About" />
 			<AboutContent />
-			<Peace />
+			{/* <Peace /> */}
+			<Dream />
 	 	 </>
 	 )
 }

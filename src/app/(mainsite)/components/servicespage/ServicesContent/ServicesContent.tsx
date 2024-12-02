@@ -49,6 +49,8 @@ For those navigating trauma, PTSD, or work-related stress, our tailored, evidenc
               <h2><span className="underline">Conditions</span> We Don’t Treat</h2>
 
               <p>While we offer support for a wide range of issues, we don’t currently treat concerns related to drug use or schizophrenia spectrum disorders. If these are areas where you need help, we’re happy to guide you toward other resources that can better meet your needs.</p>
+              
+              <Link className="main-link" href={"/faq#additionalResources"}>Resources</Link>
           </div>
         </div>
        

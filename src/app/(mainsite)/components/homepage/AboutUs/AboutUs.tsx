@@ -9,7 +9,7 @@ export default function AboutUs() {
   return (
     <section className={styles.aboutUs}>
         <div className={styles.textWrapper}>
-          <h4>About Us</h4>
+          
             <h1>Welcome to Morrison <br /> <span className="underline">Mindful Meadows - LCSW PLLC</span></h1>
 
             <p>At Morrison Mindful Meadows - LCSW PLLC, we provide a nurturing environment where individuals and couples can explore their emotions, build resilience, and achieve lasting personal growth. With compassionate care and evidence-based methods, we help you cultivate peace, clarity, and emotional well-being.</p>
