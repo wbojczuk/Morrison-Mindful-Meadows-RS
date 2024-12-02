@@ -12,7 +12,7 @@ export default function ContactInfo() {
 
             <div className={`${styles.contentWrapper} ${styles.email}`}>
               <h5>Email</h5>
-              <a href={`mailto:${process.env.NEXT_PUBLIC_EMAIL_ADDRESS}`}>{process.env.NEXT_PUBLIC_EMAIL_ADDRESS}</a>
+              <a className={styles.emailText} href={`mailto:${process.env.NEXT_PUBLIC_EMAIL_ADDRESS}`}>{process.env.NEXT_PUBLIC_EMAIL_ADDRESS}</a>
             </div>
 
             <div className={styles.contentWrapper}>

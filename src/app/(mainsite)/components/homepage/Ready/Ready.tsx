@@ -16,6 +16,6 @@ return (
     </div>
  
     <img src='/img/ready.webp' alt='Image of nature' className='bg-img' />
-    <div style={{backgroundColor: "rgba(255,255,255,0.9)"}} className='shader'></div>
+    <div style={{backgroundColor: "rgba(255,255,255,0.8)"}} className='shader'></div>
  </div>
 )};

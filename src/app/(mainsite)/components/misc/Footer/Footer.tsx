@@ -48,7 +48,7 @@ export default function Footer() {
               </ul>
             </aside>
 
-            <aside>
+            <aside className={styles.contactItems}>
               <h3 className={styles.listTitle}>Contact</h3>
               <ul className={styles.list}>
 

@@ -76,6 +76,8 @@
     align-items: center;
     justify-content: flex-start;
     gap: 0.4vw;
+    /* max-width: 30%; */
+    word-break: break-all;
 }
 
 .contactItem svg{
@@ -240,6 +242,8 @@
     
     .contactItem{
         gap: 1.5vw;
+        word-break: normal;
+        font-size: 1.3rem;
     }
     
     .contactItem svg{

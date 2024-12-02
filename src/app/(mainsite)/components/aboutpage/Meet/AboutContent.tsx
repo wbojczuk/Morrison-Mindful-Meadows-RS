@@ -9,7 +9,6 @@ export default function AboutContent() {
   return (
     <section className={styles.aboutUs}>
         <div className={styles.textWrapper}>
-          <h4>About Me</h4>
             <h1>About Dr. Marcia <span className="underline">Morrison</span></h1>
 
             <p> Hi, I’m Dr. Marcia Morrison, a licensed psychotherapist in both New York and Kentucky, with over 30 years of experience helping individuals and couples navigate life’s challenges.
