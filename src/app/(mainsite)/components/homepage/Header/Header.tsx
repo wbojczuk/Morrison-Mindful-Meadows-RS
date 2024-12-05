@@ -14,7 +14,7 @@ export default function Header() {
 
         <Link href="/contact" className="main-link">Contact</Link>
 
-        <h5>Licensed in New York and Kentucky!</h5>
+        <h5>Licensed in New York, Kentucky, and Connecticut!</h5>
 
         <img src="/img/header-bg.webp" alt="" className="bg-img" />
         <div className="shader"></div>

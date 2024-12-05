@@ -11,7 +11,7 @@ export default function AboutContent() {
         <div className={styles.textWrapper}>
             <h1>About Dr. Marcia <span className="underline">Morrison</span></h1>
 
-            <p> Hi, I’m Dr. Marcia Morrison, a licensed psychotherapist in both New York and Kentucky, with over 30 years of experience helping individuals and couples navigate life’s challenges.
+            <p> Hi, I’m Dr. Marcia Morrison, a licensed psychotherapist in New York, Kentucky, and Connecticut with over 30 years of experience helping individuals and couples navigate life’s challenges.
             <br /><br />
               I hold dual doctoral degrees—a Ph.D. in Social Work and a DSW in Social Welfare—and have worked in diverse settings, including private practice, academia, and military counseling. My career has taken me across the U.S., Alaska, Germany, and Japan, where I’ve had the privilege of providing mental health services to active-duty military members and their families.
 <br /><br />
@@ -26,7 +26,7 @@ Whether helping couples improve communication or guiding individuals through anx
         <div className={styles.imgWrapper}>
           <div className={styles.imgContainer}>
             <img src="/img/aboutcontent.webp" alt="image of dr marcia" className={styles.mainImg} />
-            <span>Licensed in New York, and Kentucky</span>
+            <span>Licensed in New York, Kentucky, and Connecticut</span>
             <div className={styles.imgStyle}></div>
           </div>
         </div>
