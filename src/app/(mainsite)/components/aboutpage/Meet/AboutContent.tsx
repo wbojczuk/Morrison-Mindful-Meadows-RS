@@ -11,7 +11,7 @@ export default function AboutContent() {
         <div className={styles.textWrapper}>
             <h1>About Dr. Marcia <span className="underline">Morrison</span></h1>
 
-            <p> Hi, I’m Dr. Marcia Morrison, a licensed psychotherapist in New York, Kentucky, and Connecticut with over 30 years of experience helping individuals and couples navigate life’s challenges.
+            <p> Hi, I’m Dr. Marcia Morrison, a licensed psychotherapist in New York, Kentucky, Connecticut, and the Commonwealth of Virginia with over 30 years of experience helping individuals and couples navigate life’s challenges.
             <br /><br />
               I hold dual doctoral degrees—a Ph.D. in Social Work and a DSW in Social Welfare—and have worked in diverse settings, including private practice, academia, and military counseling. My career has taken me across the U.S., Alaska, Germany, and Japan, where I’ve had the privilege of providing mental health services to active-duty military members and their families.
 <br /><br />
