@@ -26,7 +26,7 @@ Whether helping couples improve communication or guiding individuals through anx
         <div className={styles.imgWrapper}>
           <div className={styles.imgContainer}>
             <img src="/img/aboutcontent.webp" alt="image of dr marcia" className={styles.mainImg} />
-            <span>Licensed in New York, Kentucky, and Connecticut</span>
+            <span>Licensed in New York, Kentucky, Connecticut, and the Commonwealth of Virginia!</span>
             <div className={styles.imgStyle}></div>
           </div>
         </div>
