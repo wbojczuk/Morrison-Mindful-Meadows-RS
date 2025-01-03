@@ -13,7 +13,7 @@ const faqData: faqType[] = [
     },
     {
         question: "Do you accept insurance, and what are the costs?",
-        answer: `Unfortunately, insurance is not accepted at this time, only self-pay options is available. Our session rates are $220.00.`
+        answer: `Unfortunately, insurance is not accepted at this time, only self pay options are currently available. Our session rates are $220.00.`
     },
     {
         question: "What can I expect during the first session?",
